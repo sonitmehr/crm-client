@@ -32,7 +32,7 @@ const Home = () => {
 const deleteCustomer = async (id) => {
   try {
       await axios.delete(
-        `https://crm-backend-l59u.onrender.com/api/customers/${id}`
+        `https://mini-crm-pe3c.onrender.com/api/customers/${id}`
       );
       setCustomers(customers.filter((customer) => customer._id !== id)); // Update state
   } catch (error) {
@@ -65,7 +65,7 @@ const deleteCustomer = async (id) => {
     const fetchData = async () => {
       try {
         const customersData = await axios.get(
-          "https://crm-backend-l59u.onrender.com/api/customers"
+          "https://mini-crm-pe3c.onrender.com/api/customers"
         );
         setCustomers(customersData.data);
 
@@ -88,7 +88,7 @@ const deleteCustomer = async (id) => {
   const addCustomer = async () => {
     try {
       const response = await axios.post(
-        "https://crm-backend-l59u.onrender.com/api/customers",
+        "https://mini-crm-pe3c.onrender.com/api/customers",
         newCustomer
       );
       setCustomers([...customers, response.data]);

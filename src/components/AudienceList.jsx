@@ -9,7 +9,7 @@ const Audience = () => {
     const fetchAudiences = async () => {
       try {
         const response = await axios.get(
-          "https://crm-backend-l59u.onrender.com/api/audiences"
+          "https://mini-crm-pe3c.onrender.com/api/audiences"
         ); // Update with your API endpoint
         setAudiences(response.data);
       } catch (error) {

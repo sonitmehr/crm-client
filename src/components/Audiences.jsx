@@ -41,7 +41,7 @@ const AudienceSegmentForm = () => {
     try {
       console.log(formattedConditions);
       const response = await axios.post(
-        "https://crm-backend-l59u.onrender.com/api/audiences/calculate",
+        "https://mini-crm-pe3c.onrender.com/api/audiences/calculate",
         { conditions: formattedConditions }
       );
       setAudienceSize(response.data.audienceSize);
@@ -54,7 +54,7 @@ const AudienceSegmentForm = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://crm-backend-l59u.onrender.com/api/audiences",
+        "https://mini-crm-pe3c.onrender.com/api/audiences",
         {
           name,
           conditions,
