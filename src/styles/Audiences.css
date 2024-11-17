@@ -1,0 +1,46 @@
+.audience {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #555;
+  }
+  
+  .audience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .audience-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .audience-card h2 {
+    margin: 0 0 10px;
+    color: #444;
+  }
+  
+  .audience-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .audience-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .audience-card ul li {
+    color: #555;
+  }
+  

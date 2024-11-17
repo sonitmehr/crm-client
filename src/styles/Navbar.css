@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #555;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #777;
+  }
+  

@@ -1,0 +1,157 @@
+/* General page styling */
+body {
+  background-color: #cfd8dc;  /* Darker grayish-blue */
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the form */
+.form-container {
+  width: 60%;
+  margin: 40px auto;
+  background-color: #444; /* Darker background for the card */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for card */
+}
+
+/* Form title */
+.form-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Form input fields */
+.form-input {
+  padding: 12px;
+  background-color: #555; /* Slightly lighter background */
+  border: 1px solid #666;
+  border-radius: 5px;
+  color: #fff; /* Light text inside inputs */
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #0056b3; /* Blue border on focus */
+}
+
+/* Labels */
+.form-label {
+  font-size: 14px;
+  color: #ddd; /* Lighter text for labels */
+  margin-bottom: 5px;
+}
+
+/* Conditions Section */
+.conditions-section {
+  margin-bottom: 20px;
+}
+
+.conditions-title {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.condition-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.condition-field,
+.condition-operator,
+.condition-value,
+.condition-logic {
+  padding: 10px;
+  background-color: #555;
+  border: 1px solid #666;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  width: 20%;
+}
+
+.condition-value {
+  width: 30%;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #0056b3; /* Blue background */
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004094; /* Darker blue on hover */
+}
+
+.remove-condition-btn {
+  background-color: #e74c3c; /* Red for removal */
+}
+
+.remove-condition-btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.add-condition-btn {
+  background-color: #27ae60; /* Green for adding condition */
+  margin-top: 10px;
+}
+
+.add-condition-btn:hover {
+  background-color: #2ecc71; /* Darker green on hover */
+}
+
+/* Audience Size Section */
+.audience-size-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.calculate-size-btn {
+  background-color: #f39c12; /* Orange for calculate button */
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+}
+
+.calculate-size-btn:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+.audience-size-display {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Save button */
+.save-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2ecc71; /* Green for saving */
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
